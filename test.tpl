@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <p> {{.FetchServerInfo "ls renderquest"}} </p>
+    <p> {{.FetchServerInfo "cd renderquest; ls"}} </p>
 </body>
 
 </html>
